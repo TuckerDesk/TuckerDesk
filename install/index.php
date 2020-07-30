@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Installation - TuckerDesk</title>
+    </head>
+    <body>
+        <center>
+            <br>
+            <h1>
+        </center>
+    </body>
+
 <?php
 /*
 
