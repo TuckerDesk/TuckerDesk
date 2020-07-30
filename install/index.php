@@ -6,7 +6,7 @@
     <body>
         <center>
             <br>
-            <h1>
+            <h1>Install - TuckerDesk</h1>
         </center>
     </body>
 
