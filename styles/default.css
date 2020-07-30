@@ -11,3 +11,12 @@ body{
     text-align: center;
     background-color: #F5F5DC;
 }
+
+div.smaller{
+    width: 40%;
+}
+
+div.info{
+    width: 40%;
+    background-color: #F5F5DC;
+}
