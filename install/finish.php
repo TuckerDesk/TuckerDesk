@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Setup - TuckerDesk</title>
+        <link href="/styles/default.css" rel="stylesheet" />
+    </head>
+    <body>
+        <center>
+            <br>
+            <h1>Installation Complete - TuckerDesk</h1>
 <?php
 require 'checkfile.php';
 checkConf();
