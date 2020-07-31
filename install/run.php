@@ -53,11 +53,15 @@ Keep in mind that if these t
 
 
 ?>
-<form method="post" action="run.php">
+            <form method="post" action="run.php">
                 <label for="name">Support Center Name:</label><br>
                 <input type="text" id="name" name="name" value="My Support Center"><br>
                 <label for="url">Logo URL:</label><br>
                 <input type="text" id="url" name="url" value="http://example.com/logo.jpg"><br><br>
+                <label for="adminuser">Admin Username:</label><br>
+                <input type="text" id="adminuser" name="adminuser" value="Admin"><br><br>
+                <label for="adminpass">Admin Password:</label><br>
+                <input type="text" id="adminpass" name="adminpass" value="abcdefg"><br><br>
                 <input type="submit" value="Submit">
             </form>
 
