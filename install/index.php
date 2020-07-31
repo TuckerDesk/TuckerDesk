@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Installation - TuckerDesk</title>
+        <link href="/styles/default.css" rel="stylesheet" />
     </head>
     <body>
         <center>
