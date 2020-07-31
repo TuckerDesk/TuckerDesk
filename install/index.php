@@ -25,7 +25,7 @@
             if($php > 7){
                 echo "<h3>Good, it looks like you are running " . $php "</h3>";
             }else{
-                echo "<h3 class='error'>Your php version, " . $php . " is outdated. Consider upgrading.";
+                echo "<h3 class='error'>Your php version, " . $php . " is outdated. Consider upgrading.</h3>";
             }
             ?>
         </center>
