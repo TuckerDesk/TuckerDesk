@@ -42,8 +42,20 @@ $sql = "CREATE TABLE IF NOT EXISTS details (
     description VARCHAR(255) NOT NULL,
 )  ENGINE=INNODB;";
 
+if ($conn->query($sql) === TRUE) {
+    echo "Table created.";
+  } else {
+    echo "Table Creation Error: " . $sql . "<br>" . $conn->error;
+  }
+
 $sql = "INSERT INTO details (title, logo, description)
 VALUES (${title}, ${logo}, ${description})";
+
+if ($conn->query($sql) === TRUE) {
+    echo "Data Inserted.";
+  } else {
+    echo "Data Insert Error: " . $sql . "<br>" . $conn->error;
+  }
 
 $conn->close();
 
