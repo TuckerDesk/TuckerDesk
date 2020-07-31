@@ -29,7 +29,7 @@ $conn = new mysqli($host, $username, $password, $database);
 $_COOKIE['host'] = "deleted";
 $_COOKIE['username'] = "deleted";
 $_COOKIE['password'] = "deleted";
-$_COOKIE['database'] = "deleted"
+$_COOKIE['database'] = "deleted";
 
 // Check connection
 if ($conn->connect_error) {
