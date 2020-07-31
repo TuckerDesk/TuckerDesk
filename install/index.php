@@ -8,7 +8,7 @@
             <br>
             <h1>Install - TuckerDesk</h1>
             <h2>Let get started by setting up the database</h2>
-            <form action="run.php">
+            <form action="run.php" method="post">
                 <label for="host">MySQL Host:</label><br>
                 <input type="text" id="host" name="host" value="localhost"><br>
                 <label for="user">MySQL Username:</label><br>
