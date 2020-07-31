@@ -21,6 +21,8 @@
                 <input type="submit" value="Submit">
             </form>
             <?php
+            require 'checkfile.php';
+            checkConf();
             $ver = phpversion();
             $php = substr($ver,0,6);
             if($php > 7){

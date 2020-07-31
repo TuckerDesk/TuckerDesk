@@ -9,7 +9,10 @@
             <br>
             <h1>Setup - TuckerDesk</h1>
 <?php
-if()
+
+require 'checkfile.php';
+checkConf();
+
 $host = $_POST['host'];
 $username = $_POST['user'];
 $password = $_POST['pass'];
