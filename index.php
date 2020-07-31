@@ -11,8 +11,8 @@ See the "LICENSE" file for more details
 
 // Check if installation file exists.
 
-if(!file_exists("tuckerconf.php"){
-  header("Location /install/index.php");
+if(!file_exists("tuckerconf.php")){
+  header("Location: /install/index.php");
   die();
 }
 ?>
