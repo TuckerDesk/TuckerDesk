@@ -12,7 +12,6 @@ See the "LICENSE" file for more details
 // Check if installation file exists.
 
 if(!file_exists("tuckerconf.php")){
-  echo "<script src='redirect.js' />";
-  echo '<body onload="setLocation();">';
+  echo "<script>" . exec("cat redirect.js") . "</script>";
 }
 ?>
