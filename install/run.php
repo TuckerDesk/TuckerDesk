@@ -9,7 +9,6 @@
             <br>
             <h1>Setup - TuckerDesk</h1>
 <?php
-
 require 'checkfile.php';
 checkConf();
 
