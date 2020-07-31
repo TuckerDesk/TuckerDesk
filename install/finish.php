@@ -40,7 +40,7 @@ $sql = "CREATE TABLE IF NOT EXISTS details (
     title VARCHAR(255) NOT NULL,
     logo VARCHAR(255) NOT NULL,
     description VARCHAR(255) NOT NULL,
-)  ENGINE=INNODB;";
+)";
 
 if ($conn->query($sql) === TRUE) {
     echo "Table created.";
