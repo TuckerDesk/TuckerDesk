@@ -47,7 +47,8 @@ exec("${database} > database.txt");
 
 /*
 
-Keep in mind that if these t
+Keep in mind that if these these are not made VERY BAD THINGS WILL HAPPEN!
+(in other words, the program will be unable to connect to the database, none of the login/setup details will be saved...)
 
 */
 
