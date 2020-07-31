@@ -27,4 +27,13 @@ $conn = new mysqli($host, $username, $password);
 if ($conn->connect_error) {
   die("<h2>Sorry, the connection failed. MySQL Errors:</h2><br><code> " . $conn->connect_error . "</code><br><br><button onclick='window.history.back();'>Go Back</button><div display='none'>");
 }
+
+$sql = "CREATE TABLE IF NOT EXISTS details (
+    title VARCHAR(255) NOT NULL,
+    logo VARCHAR(255) NOT NULL,
+    description VARCHAR(255) NOT NULL,
+)  ENGINE=INNODB;";
+
+$conn->close();
+
 echo "<h2>Your installation is all done. Click below to start adding articles.</h2>";
