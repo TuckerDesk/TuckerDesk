@@ -19,6 +19,14 @@
                 <input type="text" id="data" name="data" value="tuckerdesk"><br><br>
                 <input type="submit" value="Submit">
             </form>
+            <?php
+            $php = phpversion();
+            if($php > 7){
+                echo "<h3>Good, it looks like you are running " . $php;
+            }else{
+                echo "<h3 class='error'>Your php version, " . $php . " is outdated. Consider upgrading.";
+            }
+            ?>
         </center>
     </body>
 
