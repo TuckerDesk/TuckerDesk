@@ -23,7 +23,7 @@
             $ver = phpversion();
             $php = substr($ver,0,6);
             if($php > 7){
-                echo "<h3>Good, it looks like you are running " . $php "</h3>";
+                echo "<h3>Good, it looks like you are running " . $php . "</h3>";
             }else{
                 echo "<h3 class='error'>Your php version, " . $php . " is outdated. Consider upgrading.</h3>";
             }
