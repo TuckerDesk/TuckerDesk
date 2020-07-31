@@ -24,3 +24,7 @@ div.info{
 h3.error{
     color: red;
 }
+
+code{
+    font-size: 18px;
+}

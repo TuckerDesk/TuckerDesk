@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Setup - TuckerDesk</title>
+        <link href="/styles/default.css" rel="stylesheet" />
+    </head>
+    <body>
+        <center>
+            <br>
+            <h1>Setup - TuckerDesk</h1>
 <?php
 
 $host = $_POST['host'];
@@ -9,6 +19,6 @@ $conn = new mysqli($host, $username, $password);
 
 // Check connection
 if ($conn->connect_error) {
-  die("Sorry, the connection failed. MySQL Errors:<br><code> " . $conn->connect_error . "</code>");
+  die("<h2>Sorry, the connection failed. MySQL Errors:</h2><br><code> " . $conn->connect_error . "</code>");
 }
-echo "<h2>All set up! We are now able to work with MySQL.</h2>";
+echo "<h2>All set up! We are now able to work with MySQL. You will need to enter in a few more details.</h2>";
