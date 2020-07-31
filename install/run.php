@@ -40,6 +40,8 @@ setcookie("database", $database, time() + (86400 * 30), "/");
                 <input type="text" id="name" name="name" value="My Support Center"><br>
                 <label for="url">Logo URL:</label><br>
                 <input type="text" id="url" name="url" value="http://example.com/logo.jpg"><br><br>
+                <label for="desc">Description:</label><br>
+                <input type="text" id="desc" name="desc" value="Get help with our products"><br><br>
                 <label for="adminuser">Admin Username:</label><br>
                 <input type="text" id="adminuser" name="adminuser" value="Admin"><br><br>
                 <label for="adminpass">Admin Password:</label><br>

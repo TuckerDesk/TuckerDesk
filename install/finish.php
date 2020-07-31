@@ -21,7 +21,15 @@ $username = $_COOKIE['username'];
 $password = $_COOKIE['password'];
 $database = $_COOKIE['database'];
 
-$conn = new mysqli($host, $username, $password);
+$title = $_POST['name'];
+$logo = $_POST['url'];
+$description = $_POST['desc'];
+$conn = new mysqli($host, $username, $password, $database);
+
+$_COOKIE['host'] = "deleted";
+$_COOKIE['username'] = "deleted";
+$_COOKIE['password'] = "deleted";
+$_COOKIE['database'] = "deleted";
 
 // Check connection
 if ($conn->connect_error) {
@@ -33,6 +41,9 @@ $sql = "CREATE TABLE IF NOT EXISTS details (
     logo VARCHAR(255) NOT NULL,
     description VARCHAR(255) NOT NULL,
 )  ENGINE=INNODB;";
+
+$sql = "INSERT INTO details (title, logo, description)
+VALUES (${title}, ${logo}, ${description})";
 
 $conn->close();
 
