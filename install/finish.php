@@ -2,4 +2,6 @@
 require 'checkfile.php';
 checkConf();
 
-echo exec("cd .. && cd data && cat host.txt");
+$myfile = fopen("data/host.txt", "r") or die("Something went wrong...");
+echo fread($myfile,filesize("webdictionary.txt"));
+fclose($myfile);
