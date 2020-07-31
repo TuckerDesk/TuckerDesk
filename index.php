@@ -10,8 +10,8 @@ See the "LICENSE" file for more details
 
 
 // Check if installation file exists.
-
+$code = 'window.location.replace("install/index.php");';
 if(!file_exists("tuckerconf.php")){
-  echo "<script>" . exec("cat redirect.js") . "</script>";
+  echo "<script>" . $code . "</script>";
 }
 ?>
