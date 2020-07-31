@@ -49,7 +49,7 @@ if ($conn->query($sql) === TRUE) {
   }
 
 $sql = "INSERT INTO details (title, logo, description)
-VALUES (${title}, ${logo}, ${description})";
+VALUES ('${title}', '${logo}', '${description}')";
 
 if ($conn->query($sql) === TRUE) {
     echo "Data Inserted.";
