@@ -26,7 +26,7 @@ if ($conn->connect_error) {
   die("<h2>Sorry, the connection failed. MySQL Errors:</h2><br><code> " . $conn->connect_error . "</code><br><br><button onclick='window.history.back();'>Go Back</button><div display='none'>");
 }
 echo "<h2>All set up! We are now able to work with MySQL. You will need to enter in a few more details.</h2>";
-echo "<i>Important: You MUST let all folders in this directable be writeable by TuckerDesk! Bad things will happen if you do not.</i>"
+echo "<i>Important: You MUST let all folders in this directable be writeable by TuckerDesk! Bad things will happen if you do not.</i>";
 
 /*
 
