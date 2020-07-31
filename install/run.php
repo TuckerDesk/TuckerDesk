@@ -54,7 +54,7 @@ Keep in mind that if these these are not made VERY BAD THINGS WILL HAPPEN!
 
 
 ?>
-            <form method="post" action="run.php">
+            <form method="post" action="finish.php">
                 <label for="name">Support Center Name:</label><br>
                 <input type="text" id="name" name="name" value="My Support Center"><br>
                 <label for="url">Logo URL:</label><br>
