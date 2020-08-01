@@ -31,7 +31,8 @@ code{
     font-size: 18px;
 }
 
-button{
+button,
+input[type=submit]{
     font-family: arial;
     border: none;
     padding: 12px 18px;
@@ -43,6 +44,7 @@ button{
     cursor: pointer;
 }
 
-button:hover{
+button:hover,
+input[type=submit]:hover{
     background-color: black;
 }
