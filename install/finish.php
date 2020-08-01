@@ -36,12 +36,7 @@ if ($conn->connect_error) {
   die("<h2>Sorry, the connection failed. MySQL Errors:</h2><br><code> " . $conn->connect_error . "</code><br><br><button onclick='window.history.back();'>Go Back</button><div display='none'>");
 }
 
-$sql = "CREATE TABLE IF NOT EXISTS details 
-( title VARCHAR(255) NOT NULL
-, logo VARCHAR(255) NOT NULL
-, description VARCHAR(255) NOT NULL
-,
-)  ENGINE=INNODB";
+$sql = "source create.sql";
 
 if ($conn->query($sql) === TRUE) {
     echo "Table created.";
