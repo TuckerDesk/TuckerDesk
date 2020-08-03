@@ -61,8 +61,8 @@ input[type=text]:hover{
     width: 20%;
     height: 20px;
     font-size: 14px;
-    border: none;
-    border-bottom: 1.5px solid blue;
+    border: 1px solid;
+    border-bottom: 1px solid blue;
 }
 
 input[type=password]{
@@ -77,6 +77,6 @@ input[type=password]:hover{
     width: 20%;
     height: 20px;
     font-size: 14px;
-    border: none;
-    border-bottom: 1.5px solid black;
+    border: 1px solid;
+    border-bottom: 1px solid black;
 }
