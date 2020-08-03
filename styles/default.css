@@ -57,8 +57,24 @@ input[type=text]{
     border-bottom: 1px solid blue;
 }
 
+input[type=text]:hover{
+    width: 30%;
+    height: 20px;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid blue;
+}
+
 input[type=password]{
     width: 20%;
+    height: 20px;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+input[type=password]:hover{
+    width: 30%;
     height: 20px;
     font-size: 14px;
     border: none;
