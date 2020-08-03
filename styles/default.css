@@ -48,3 +48,11 @@ button:hover,
 input[type=submit]:hover{
     background-color: black;
 }
+
+input[type=text]{
+    width: 20%;
+    height: 20px;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid blue;
+}
