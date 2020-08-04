@@ -22,3 +22,9 @@ Clone the repo:
 Open your prefered way of interacting with MySQL (PHPMyAdmin or CLI) and create a new user with permissions to create and write to tables. You can also create a new database.
 
 Open your browser and navigate to `localhost` or where you clone TuckerDesk and follow the installation guide.
+
+## Troubleshooting
+
+*I am getting "access denied" after setting the MySQL password!*
+
+Make sure that the new user you made has all permissions on MySQL.
