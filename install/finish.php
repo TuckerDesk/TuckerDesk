@@ -38,6 +38,13 @@ if ($conn->connect_error) {
 
 $sql = "use ${database}";
 
+if ($conn->query($sql) === TRUE) {
+  echo "Table created.";
+} else {
+  echo "Source Creation Error: " . $sql . "<br>" . $conn->error;
+}
+
+
 $sql = "source create.sql";
 
 if ($conn->query($sql) === TRUE) {
