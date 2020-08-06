@@ -1,0 +1,25 @@
+html, body{
+    font-family: arial;
+}
+
+button,
+input[type=submit]{
+    font-family: arial;
+    border: none;
+    padding: 12px 18px;
+    margin: 1px;
+    background-color: #4e91e4;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover,
+input[type=submit]:hover{
+    background-color: black;
+}
+
+hr{
+    color: grey;
+}
