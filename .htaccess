@@ -1,1 +1,2 @@
 ErrorDocument 404: /404ErrorHandler.php
+ErrorDocument 403: /403ErrorHandler.php
