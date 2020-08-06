@@ -52,5 +52,10 @@ if($toggle = "false"){ // Checks that the server is in production mode
 else{
     // Do not redirect, the server is in non-production mode.
     echo "<script src='js/devmode.js'></script>";
+
+  $title = "Dev Test";
+  $desc = "This is the support center for developer testing.";
+  $url = "https://riverside.rocks/logo.jpg";
+
 }
 ?>
