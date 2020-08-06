@@ -11,6 +11,8 @@ See the "LICENSE" file for more details
 
 // Check if installation file exists.
 $code = 'window.location.replace("install/index.php");';
+$toggle = file_get_contents("data/dev.txt");
+if()
 if(!file_exists("tuckerconf.php")){
   echo "<script>" . $code . "</script>";
 }
