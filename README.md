@@ -28,3 +28,7 @@ Open your browser and navigate to `localhost` or where you clone TuckerDesk and 
 *I am getting "access denied" after setting the MySQL password!*
 
 Make sure that the new user you made has all permissions on MySQL.
+
+*My support center name is not loading*
+
+The program may have failed to create a core configuration file called `tuckerconf.php`. Make sure TuckerDesk can write to the directory.
