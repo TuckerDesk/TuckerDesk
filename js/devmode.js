@@ -1,0 +1,2 @@
+document.cookie = "dev=true";
+console.log("WARNING! THIS SERVER IS IN DEVELOPMENT MODE MODE, DO NOT USE THIS IN PRODUCTION.");
