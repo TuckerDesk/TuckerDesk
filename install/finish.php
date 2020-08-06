@@ -62,6 +62,7 @@ if ($conn->query($sql) === TRUE) {
     echo "Data Insert Error: " . $sql . "<br>" . $conn->error;
   }
 
+  echo "<h2>Your installation is all done. Click below to start adding articles.</h2>";
+
 $conn->close();
 
-echo "<h2>Your installation is all done. Click below to start adding articles.</h2>";
