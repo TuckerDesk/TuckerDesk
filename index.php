@@ -49,7 +49,7 @@ if($toggle = "false"){ // Checks that the server is in production mode
       */
 
     }
-else{
+  }else{
     // Do not redirect, the server is in non-production mode.
     echo "<script src='js/devmode.js'></script>";
 
