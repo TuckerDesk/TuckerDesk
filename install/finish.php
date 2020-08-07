@@ -69,6 +69,8 @@ exec("echo $username = ${username} >> tuckerconf.php");
 exec("echo $host = ${host} >> tuckerconf.php");
 exec("echo $database = ${database} >> tuckerconf.php");
 
+sleep(3);
+
   echo "<h2>Your installation is all done. Click below to start adding articles.</h2>";
 
 $conn->close();
