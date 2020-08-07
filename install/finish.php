@@ -10,7 +10,7 @@
             <h1>Installation Complete - TuckerDesk</h1>
 <?php
 require 'checkfile.php';
-checkConf();
+/* checkConf(); */
 
 if(!isset($_COOKIE['host'])){
     echo "Something went wrong, please make sure cookies are allowed for this site.";
