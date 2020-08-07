@@ -14,6 +14,8 @@ You will need:
 
 - MySQL
 
+- Apache 2
+
 ## Installation
 
 Clone the repo:
