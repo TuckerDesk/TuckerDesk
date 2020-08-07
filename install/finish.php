@@ -63,8 +63,7 @@ if ($conn->query($sql) === TRUE) {
   }
 
 exec("cd ..");
-exec("touch tuckerconf.php");
-exec("echo $password = ${password} >> tuckerconf.php");
+exec("echo $password = ${password} > tuckerconf.php");
 exec("echo $username = ${username} >> tuckerconf.php");
 exec("echo $host = ${host} >> tuckerconf.php");
 exec("echo $database = ${database} >> tuckerconf.php");
