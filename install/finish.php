@@ -41,7 +41,7 @@ $sql = "use ${database};";
 if ($conn->query($sql) === TRUE) {
   echo "Table created.";
 } else {
-  echo "Source Creation Error: " . $sql . "<br>" . $conn->error;
+  echo "Use Error: " . $sql . "<br>" . $conn->error;
 }
 
 
