@@ -21,7 +21,12 @@ You will need:
 Clone the repo:
 `git clone https://github.com/TuckerDesk/TuckerDesk`
 
-Open your prefered way of interacting with MySQL (PHPMyAdmin or CLI) and create a new user with permissions to create and write to tables. You can also create a new database.
+Change Directory to `install`
+
+Open MySQL via the terminal and sign in as root.
+
+Run this command:
+`source create.sql && source table.sql`
 
 Open your browser and navigate to `localhost` or where you clone TuckerDesk and follow the installation guide.
 
