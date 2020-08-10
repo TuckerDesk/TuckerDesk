@@ -22,6 +22,7 @@ Clone the repo:
 `git clone https://github.com/TuckerDesk/TuckerDesk`
 
 Change Directory to `install`
+`cd install`
 
 Open MySQL via the terminal and sign in as root.
 
